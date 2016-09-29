@@ -59,10 +59,10 @@ module.exports =
 
 	__webpack_require__(230);
 
-	console.log(_.map([1, 3, 4], function (i) {
+	console.log(_.map([6, 7, 8], function (i) {
 	  return i + 1;
 	}));
-	document.registerElement('pie-element', _pieElement2.default);
+	document.registerElement('pie-element-two', _pieElement2.default);
 
 /***/ },
 /* 1 */
@@ -183,7 +183,7 @@ module.exports =
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        '!!! > ',
+	        'Element Two: ',
 	        _react2.default.createElement(
 	          _MuiThemeProvider2.default,
 	          null,

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "pie-comp": "file:///Users/edeustace/dev/github/PieLabs/build-test/pie-element",
-    "pie-element": "file:///Users/edeustace/dev/github/PieLabs/build-test/pie-element"
+    "pie-element": "../pie-element",
+    "pie-element-two": "../pie-element-two"
   },
   "devDependencies": {
     "babel-core": "^6.16.0",
